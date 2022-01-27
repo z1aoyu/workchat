@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "wechat",
+      "type": "com.b1aoyu.wechat.isv.config.WechatProperties",
+      "sourceType": "com.b1aoyu.wechat.isv.config.WechatProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wechat.aes-key",
+      "type": "java.lang.String",
+      "sourceType": "com.b1aoyu.wechat.isv.config.WechatProperties"
+    },
+    {
+      "name": "wechat.corp-id",
+      "type": "java.lang.String",
+      "sourceType": "com.b1aoyu.wechat.isv.config.WechatProperties"
+    },
+    {
+      "name": "wechat.corp-oauth-url",
+      "type": "java.lang.String",
+      "sourceType": "com.b1aoyu.wechat.isv.config.WechatProperties"
+    },
+    {
+      "name": "wechat.token",
+      "type": "java.lang.String",
+      "sourceType": "com.b1aoyu.wechat.isv.config.WechatProperties"
+    },
+    {
+      "name": "wechat.user-oauth-url",
+      "type": "java.lang.String",
+      "sourceType": "com.b1aoyu.wechat.isv.config.WechatProperties"
+    }
+  ],
+  "hints": []
+}
