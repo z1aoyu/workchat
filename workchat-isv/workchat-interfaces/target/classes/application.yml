@@ -1,0 +1,62 @@
+server:
+  port: 5300
+
+
+spring:
+  application:
+    name: workchat
+
+  #文件上传大小限制5MB
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/wechat?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    driver-class-name: com.mysql.jdbc.Driver
+
+  #rabbit配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: devmq
+    password: 123456
+    virtual-host: wechat
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    listener:
+      simple:
+        acknowledge-mode: manual  #手动确认消息接收
+
+  redis:
+    database: 1
+    host: localhost
+    port: 6379
+    password: 123456
+    timeout: 5000
+    jedis:
+      pool:
+        max-active: 100   # 连接池最大连接数（使用负值表示没有限制）
+        max-idle: 10 # 连接池中的最大空闲连接
+        max-wait: -1  # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        min-idle: 0 # 连接池中的最小空闲连接
+
+#输出mybatis sql
+logging:
+  level:
+    com.looedu.mapper: debug
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location: classpath:/mybatis/config/mybatis-config.xml
+
+#starter 部分接口需要的参数  未使用到可以不配置  具体使用到某个接口报错提示中会提示需要的配置参数
+wechat:
+  aes-key: 用户密钥
+  corp-id: 企业Id
+  token: 回调配置Token
+  user-oauth-url: 用户授权回调地址
+  corp-oauth-url: 企业授权回调地址
