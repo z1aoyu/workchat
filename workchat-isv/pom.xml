@@ -12,8 +12,8 @@
 
 
     <modules>
-        <module>workchat-application</module>
         <module>workchat-common</module>
+        <module>workchat-application</module>
         <module>workchat-domain</module>
         <module>workchat-infrastructure</module>
         <module>workchat-interfaces</module>
@@ -60,12 +60,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
-        </dependency>
-        <!--糊涂工具类-->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.5.0</version>
         </dependency>
         <!--第三方API 企业微信starter服务-->
         <dependency>

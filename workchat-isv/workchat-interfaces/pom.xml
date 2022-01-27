@@ -11,7 +11,7 @@
 
     <artifactId>workchat-interfaces</artifactId>
 
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
 
     <dependencies>
@@ -42,6 +42,7 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.4</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -59,7 +60,12 @@
 
         <dependency>
             <groupId>com.b1aoyu.wechat</groupId>
-            <artifactId>workchat-interfaces</artifactId>
+            <artifactId>workchat-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.b1aoyu.wechat</groupId>
+            <artifactId>workchat-infrastructure</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -72,10 +78,11 @@
             <artifactId>workchat-application</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>wechat</finalName>
+        <finalName>workchat-interfaces</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

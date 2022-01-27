@@ -10,7 +10,7 @@
 
 
     <properties>
-        <hutool.version>5.3.3</hutool.version>
+        <hutool.version>5.7.20</hutool.version>
         <collection.version>3.2.2</collection.version>
     </properties>
 

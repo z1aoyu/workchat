@@ -1,9 +1,0 @@
-
-l	java:S116"WRename this field "access_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µäøª
-j	java:S116#"URename this field "expires_in" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…­§„
-s	java:S116("YRename this field "permanent_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌóÌ’ÿÿÿÿÿ
-m	java:S116-"YRename this field "auth_corp_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âðÊL
-h	java:S1162"TRename this field "auth_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êëû
-n	java:S1167"YRename this field "auth_user_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„—–»
-u	java:S116<"[Rename this field "dealer_corp_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºöß§úÿÿÿÿ
-r	java:S116A"]Rename this field "register_code_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¿éÊ

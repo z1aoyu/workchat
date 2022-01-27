@@ -1252,9 +1252,13 @@
     <inspection_tool class="GroovyNonShortCircuitBoolean" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="GroovyNotifyWhileNotSynchronized" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="GroovyOctalInteger" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="GroovyOverlyComplexArithmeticExpression" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GroovyOverlyComplexArithmeticExpression" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="m_limit" value="3" />
+    </inspection_tool>
     <inspection_tool class="GroovyOverlyComplexBooleanExpression" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="GroovyOverlyComplexMethod" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GroovyOverlyComplexMethod" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="m_limit" value="10" />
+    </inspection_tool>
     <inspection_tool class="GroovyOverlyLongMethod" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="GroovyOverlyNestedMethod" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="GroovyParameterNamingConvention" enabled="false" level="WARNING" enabled_by_default="false">
@@ -1643,7 +1647,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="description:企业微信ISV服务启动类,author：z1aoyu" />
+      <option name="myAdditionalJavadocTags" value="description:企业微信ISV服务启动类,author：z1aoyu,description:企业微信响应控制器,description:企业微信控制器" />
     </inspection_tool>
     <inspection_tool class="JavaFxColorRgb" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JavaFxDefaultTag" enabled="true" level="WARNING" enabled_by_default="true" />
