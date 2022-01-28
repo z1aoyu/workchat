@@ -55,6 +55,7 @@ mybatis:
 
 #starter 部分接口需要的参数  未使用到可以不配置  具体使用到某个接口报错提示中会提示需要的配置参数
 wechat:
+  suit-id: 应用Id
   aes-key: 用户密钥
   corp-id: 企业Id
   token: 回调配置Token

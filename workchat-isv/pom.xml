@@ -25,6 +25,7 @@
         <sourceEncoding>UTF-8</sourceEncoding>
         <!-- 不上传到私库-->
         <maven.deploy.skip>true</maven.deploy.skip>
+        <redisson.version>3.12.4</redisson.version>
     </properties>
 
     <!-- springboot 版本-->
@@ -48,11 +49,28 @@
             <version>8.0.16</version>
             <scope>runtime</scope>
         </dependency>
+        <!--redisson redis客户端集成-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>${redisson.version}</version>
+        </dependency>
+        <!--rabbitmq 集成springboot-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
         <!--通用lang包-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.8</version>
+        </dependency>
+        <!--通用io包-->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
         </dependency>
         <!--单元测试-->
         <dependency>

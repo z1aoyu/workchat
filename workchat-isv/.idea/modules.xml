@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/workchat-isv.iml" filepath="$PROJECT_DIR$/.idea/workchat-isv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workchat-application/workchat-application.iml" filepath="$PROJECT_DIR$/workchat-application/workchat-application.iml" />
     </modules>
   </component>
 </project>

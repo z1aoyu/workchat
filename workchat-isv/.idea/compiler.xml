@@ -2,18 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="workchat-common" />
-        <module name="workchat-domain" />
         <module name="workchat-interfaces" />
-        <module name="workchat-application" />
+        <module name="workchat-domain" />
         <module name="workchat-infrastructure" />
+        <module name="workchat-common" />
+        <module name="workchat-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="workchat-application" target="1.8" />
       <module name="workchat-controller" target="8" />
     </bytecodeTargetLevel>
   </component>
