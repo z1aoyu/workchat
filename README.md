@@ -1,5 +1,9 @@
 # workchat
-实现企业微信对接服务的搭建，根据DDD的设计理念，搭建一套对接企业微信第三方服务商应用的服务
+实现企业微信对接服务的搭建，根据DDD的设计理念，搭建一套对接企业微信第三方服务商应用的服务。
+
+## 包含两部分 （第一部分：starter服务提供第三方api服务，第二部分：ISV具体应用服务 —— DDD模型的企业微信ISV）
+### 项目结构图
+![企业微信DDD领域模型图](https://user-images.githubusercontent.com/46096773/151555716-a7695fe2-9b29-4d9f-977e-6bdecd76cd43.jpg)
 
 ## wechat-isv-spring-boot-starter 
 这是针对企业微信提供的API进行封装，目前包含 （应用授权、通讯录管理、身份验证）。
