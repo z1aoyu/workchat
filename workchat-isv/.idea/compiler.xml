@@ -15,7 +15,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="workchat-application" target="1.8" />
       <module name="workchat-controller" target="8" />
     </bytecodeTargetLevel>
   </component>
